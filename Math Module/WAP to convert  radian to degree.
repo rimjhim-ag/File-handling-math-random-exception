@@ -1,0 +1,7 @@
+import math
+
+a=0.5434
+
+deg=math.radian(a)
+
+print("degrees",deg)
