@@ -1,0 +1,9 @@
+import math
+
+height = float(input('Height of cylinder: '))
+
+radian = float(input('Radius of cylinder: '))
+
+volume = math.pi * radian * radian * height
+
+print("Volume is: ", volume)
