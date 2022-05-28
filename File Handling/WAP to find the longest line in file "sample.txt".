@@ -1,0 +1,4 @@
+with open('sample.txt') as f:
+    data= f.readlines()
+    p=max(data,key=len)
+    print(p)
