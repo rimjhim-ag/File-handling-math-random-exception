@@ -1,0 +1,7 @@
+import math
+diameter =float(input("Diameter of circle:"))
+angle=float(input("angle measure:"))
+if angle>=360:
+  print("angle is not possible")
+arc_length=(math.pi*diameter)*(math.radians(angle))
+print(arc_length)
