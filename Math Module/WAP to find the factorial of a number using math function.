@@ -1,0 +1,7 @@
+import math
+
+a=int(input("enter a number:")
+
+f=math.factorial()
+
+print("factorial is",f)
