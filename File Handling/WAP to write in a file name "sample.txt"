@@ -1,0 +1,4 @@
+with open ('sample.txt','w') as f:
+    f.write("rimjhim agrawal")
+    f.write("section q")
+    f.write("hello")
