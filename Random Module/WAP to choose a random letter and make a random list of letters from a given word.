@@ -1,0 +1,4 @@
+import random as rd
+a='rimjhim'
+print(rd.sample(a,k=3))
+print(rd.choice(a))
