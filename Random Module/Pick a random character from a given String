@@ -1,0 +1,6 @@
+import random
+
+name = input("enter a string:")
+char = random.choice(name)
+print("random char is ", char)
+ 
