@@ -1,0 +1,17 @@
+def divide(x, y):
+    try:
+        result = x // y
+        assert x>0
+        assert y>0
+    except ZeroDivisionError:
+        print("Sorry ! You are dividing by zero ")
+    except AssertionError:
+        print("Inputted values are not positive")
+    else:
+        print("Yeah ! Your answer is :", result)
+    finally: 
+        
+        print('Program Finished')  
+ 
+x,y=map(int,input().split())
+divide(x, y)
