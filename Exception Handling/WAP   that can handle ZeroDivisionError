@@ -1,0 +1,9 @@
+def divide_twelve(number):
+     try:
+         print(f"Result: {12/number}")
+     except ZeroDivisionError:
+         print("You can't divide 12 by zero.")
+
+a=int(input("enter number to divide by twelve:"))
+divide_twelve(a)
+
