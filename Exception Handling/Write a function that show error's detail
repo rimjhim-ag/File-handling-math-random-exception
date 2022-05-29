@@ -1,0 +1,7 @@
+ def concat_messages(x, y):
+    try:
+        print(f"{x + y}")
+    except TypeError as e:
+        print(f"Argument Error: {e}")
+
+ concat_messages("Hello", 2020)
